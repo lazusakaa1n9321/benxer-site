@@ -1,0 +1,73 @@
+/*
+	Yazılım: Lyn Video v1
+	Son Güncelleme: 04.03.2011
+	www.leventayan.com - twitter.com/LvntAyn
+	o@leventayan.com
+*/
+/* Genel (Body) */
+body{background-color:#fff; margin:0; font-family:Tahoma}
+ul, li{list-style-type:none; padding:0px; margin:0px}
+a{text-decoration:none; color:#333}
+img{border:0}
+
+/* Üst (Header) */
+#ust{background-image:url(../images/ust_bg.png); background-repeat:repeat-x; width:100%; height:158px}
+#ust #ust_orta{width:997px; margin-right:auto; margin-left:auto; padding-top:23px; height:58px}
+#ust #ust_orta #ust_orta_sol{margin-left:5px; float:left}
+#ust #ust_orta #ust_orta_sag{float:right; width:468px; height:60px; margin-right:5px}
+#ust #menu{background-image:url(../images/menu_bg.png); margin-right:auto; margin-left:auto; margin-top:15px; width:983px; height:62px; padding-left:14px}
+#ust #menu li{float:left; margin-top:25px; margin-left:35px; color:#fff; font-weight:bold; font-size:14px}
+#ust #menu a{color:#fff}
+#ust #menu li:hover, #ust #menu a:hover{color:#FC0}
+#ust #menu #menu_sag{margin-top:10px; margin-right:5px; float:right}
+#ust #menu #menu_sag .arama{background-color:#e2e2e2; margin-top:10px; width:180px; height:25px; border:0; color:#333}
+#ust #menu #menu_sag .ara{background-color:#156ccd; margin-right:5px; width:35px; height:27px; border:0; color:#fff; font-weight:700}
+
+/* İçerik (Content) */
+#icerik{width:997px; margin-right:auto; margin-left:auto; margin-top:10px}
+/* İçerik - Sol(Content - Left) */
+#icerik #sol{float:left; width:706px; margin-left:4px}
+#icerik #sol .sol_bosluk{float:left; width:705px; height:5px}
+#icerik #sol .sol_baslik{background-image:url(../images/sol_baslik.png); float:left; width:698px; height:31px; font-size:18px; ; font-weight:bold; color:#FFF; text-align:left; padding-top:10px; padding-left:10px}
+#icerik #sol .sol_kutu{float:left; width:696px; border:1px solid #e2e2e2; padding:5px}
+#icerik #sol .sol_kutu .videolar{width:160px; height:200px; border:1px solid #E0E0E0; margin-left:10px; margin-top:5px; float:left; text-align:center; color:#333; font-size:12px}
+#icerik #sol .sol_kutu .videolar:hover{border:1px solid #CACACA}
+#icerik #sol .sol_kutu .videolar img{width:146px; height:96px; margin-top:5px; border:1px solid #DADADA; padding:2px}
+#icerik #sol .sol_kutu .videolar .videolar_baslik, #icerik #sol .sol_kutu .videolar .videolar_izlenme, #icerik #sol .sol_kutu .videolar .videolar_yorum{margin:4px; background:url(../images/ileri_icon.png) no-repeat 5px; text-align:left; padding-left:15px}
+#icerik #sol .sol_kutu .videolar .videolar_baslik a:hover, #icerik #sol .sol_kutu .videolar .videolar_izlenme a:hover, #icerik #sol .sol_kutu .videolar .videolar_yorum a:hover{color:#0042A6}
+#icerik #sol .sol_kutu .videolar .videolar_izlenme{margin-top:10px; padding-left:18px; background:url(../images/izlenme_icon.png) no-repeat 5px; color:#0042A6}
+#icerik #sol .sol_kutu .videolar .videolar_yorum{margin-top:10px; padding-left:18px; background:url(../images/yorum_icon.png) no-repeat 5px; color:#0042A6}
+#icerik #sol .sol_kutu .ivideo_cizgi{width:100%; height:5px; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:#333; margin-bottom:5px}
+#icerik #sol .sol_kutu .ivideo_sol{float:left; width:525px; text-align:center}
+#icerik #sol .sol_kutu .ivideo_sag{float:right; width:170px; background-color:#666}
+#icerik #sol .sol_kutu .idetay_cizgi{width:100%; height:5px; border-bottom-width:1px; border-bottom-style:dashed; border-bottom-color:#CCC; margin-bottom:5px}
+#icerik #sol .sol_kutu .sayfalama{float:right; margin:8px 10px 5px 0px; clear:both}
+#icerik #sol .sol_kutu .sayfalama a{background-color:#0B57CA; padding:3px 9px 4px 8px; font-size:15px; color:#fff; border:1px solid #06C; margin-left:3px}
+#icerik #sol .sol_kutu .sayfalama .acik{background-color:#CCC; padding:3px 9px 4px 8px; font-size:15px; color:#0B57CA; border:1px solid #AAA; margin-left:3px}
+#icerik #sol .sol_kutu .iyorum ul{width:100%; float:left; margin-top:5px}
+#icerik #sol .sol_kutu .iyorum li{float:left}
+#icerik #sol .yorum_ust{background-image:url(../images/yorum_ust.png); width:700px; height:5px}
+#icerik #sol .yorumlar{background-color:#f2f2f2; width:690px; padding:5px; font-family:Arial; font-size:12px}
+#icerik #sol .yorumlar li{float:left; margin-left:5px}
+#icerik #sol .yorum_alt{background-image:url(../images/yorum_alt.png); width:700px; height:5px; margin-bottom:10px}
+#icerik #sol .sol_kutu .iyorum li input{background-color:#E9E9E9; border:1px solid #CCC; width:200px; height:20px; margin-left:25px}
+#icerik #sol .sol_kutu .iyorum li .ygonder{height:30px; width:150px; background-color:#06C; color:#FFF}
+/* İçerik - Sağ(Content - Right) */
+#icerik #sag{float:right; width:283px; margin-right:4px}
+#icerik #sag .sag_bosluk{float:right; width:270px; height:5px}
+#icerik #sag .sag_baslik{background-image:url(../images/sag_baslik.png); float:right; width:270px; height:31px; font-size:16px; ; font-weight:bold; color:#FFF; text-align:center; padding-top:10px}
+#icerik #sag .sag_kutu{float:right; width:258px; border:1px solid #e2e2e2; padding:5px}
+#icerik #sag .sag_kutu li{float:left; width:42%; padding-left:20px; padding-top:2px; padding-bottom:2px; border-bottom-width:1px; border-bottom-style:dashed; border-bottom-color:#CCC; color:#333; font-size:13px; background:url(../images/ileri_icon.png) no-repeat 5px}
+#icerik #sag .sag_kutu a{color:#333}
+#icerik #sag .sag_kutu a:hover{font-weight:bold}
+#icerik #sag .sag_kutu .sag_videolar{width:125px; height:125px; border:1px solid #EFEFEF; margin-left:2px; float:left; text-align:center; color:#333; font-size:12px; margin-top:2px}
+#icerik #sag .sag_kutu .sag_videolar img{width:115px; height:100px; margin-top:5px; border:1px solid #DADADA}
+#icerik #sag .sag_kutu .sag_videolar:hover{border:1px solid #CACACA; font-weight:normal}
+#icerik #sag .sag_kutu .sag_videolar a:hover{font-weight:normal}
+#icerik #sag .sag_kutu .sag_yorum li{background:url(../images/avatar_icon.png) no-repeat 1px; float:left; width:92%}
+#icerik #sag .sag_kutu .sag_yorum li:hover, #icerik #sag .sag_kutu .sag_yorum a:hover{font-weight:normal; color:#0042A6}
+
+/* Alt (Footer) */
+#alt{background-color:#dadada; width:100%; font-size:12px; color:#333; text-align:center; padding-top:10px}
+#alt a{color:#333}
+#alt a:hover{color:#03F}
